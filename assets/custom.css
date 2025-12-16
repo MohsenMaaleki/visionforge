@@ -1,0 +1,40 @@
+/* Custom styles for VisionForge */
+
+/* Override Radix theme color variables */
+:root {
+    --gray-a10: #1F2937 !important;
+    --gray-a11: #1F2937 !important;
+    --gray-11: #1F2937 !important;
+    --gray-12: #1F2937 !important;
+}
+
+/* Force dark placeholder text - very aggressive override */
+*::placeholder {
+    color: #1F2937 !important;
+    opacity: 1 !important;
+    -webkit-text-fill-color: #1F2937 !important;
+}
+
+textarea::placeholder,
+textarea::-webkit-input-placeholder,
+textarea::-moz-placeholder,
+textarea:-ms-input-placeholder,
+.rt-TextAreaInput::placeholder,
+.rt-TextAreaInput::-webkit-input-placeholder,
+.rt-TextAreaInput::-moz-placeholder,
+.rt-reset::placeholder,
+input::placeholder,
+input::-webkit-input-placeholder {
+    color: #1F2937 !important;
+    opacity: 1 !important;
+    -webkit-text-fill-color: #1F2937 !important;
+}
+
+/* Target Radix TextArea specifically */
+.rt-TextAreaRoot textarea::placeholder,
+.rt-TextAreaRoot textarea::-webkit-input-placeholder,
+.rt-TextAreaRoot .rt-TextAreaInput::placeholder {
+    color: #1F2937 !important;
+    opacity: 1 !important;
+    -webkit-text-fill-color: #1F2937 !important;
+}

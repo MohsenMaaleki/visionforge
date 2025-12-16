@@ -1,0 +1,9 @@
+reflex>=0.4.0
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+pillow>=10.0.0
+requests>=2.31.0
+
+# Export features
+moviepy>=1.0.3
+numpy>=1.24.0
